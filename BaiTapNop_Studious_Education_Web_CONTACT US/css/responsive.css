@@ -1,0 +1,285 @@
+ /* responsive */
+    /* desktop */
+    
+    @media screen and (max-width: 1200px) {
+        .contact .container {
+            margin: auto 50px;
+        }
+        .we .container {
+            max-width: 1000px;
+            padding: 0 0 48px 0;
+        }
+        .we header {
+            padding: 0 0px 48px 0px;
+            margin: 0 120px 48px 120px;
+        }
+        .we .row .col1 {
+            padding: 0 15px 0 0;
+        }
+        .we .row .col2 {
+            padding: 0 0 0 24px;
+        }
+        .subscribe .link {
+            max-width: 915px;
+        }
+    }
+    /* tablet */
+    
+    @media screen and (max-width: 992px) {
+        .header_1 {
+            display: none;
+        }
+
+        .header_2 .row {
+            justify-content: space-between;
+            padding: 8px 0 !important;
+        }
+
+        .header_2 .col2 {
+            display: none;
+        }
+
+        .header_2 .col2.show {
+            margin: 16px 0 0 0;
+            padding: 20px;
+            background-color: var(--bg-color);
+            position: absolute;
+            top: 55px;
+            left: 15px;
+            right: 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 6px 19px rgb(0 0 0 / 5%);
+        }
+
+        .dark_to_light_change{
+            background-color: #161c2d !important;
+            border: 1px solid rgba(255,255,255,0.2) !important;
+           }
+        
+        .dark_to_light_change form input{
+            border: 2px solid rgba(238, 238, 238, 1) !important;
+           }
+
+        .header_2 .col2.show .col2-link {
+            margin: auto;
+            font-weight: 600;
+            padding: 10px 0;
+            font-size: 15px;
+        }
+    
+        .header_2 .col2.show .rightside-form {
+            width: 300px;
+            margin: 17px auto -1px;
+        }
+    
+      
+    
+        .header_2 .col3 {
+            margin: auto 0;
+            display: flex;
+            align-items: center;
+        }
+    
+        .header_2 .col3 .col3-menu {
+            display: block;
+            width: 34px;
+            height: 34px;
+            line-height: 34px;
+            background: var(--primary-color);
+        }
+    
+        .header_2 .col3 .col3-menu.show {
+            display: none;
+        }
+    
+        .header_2 .col3 .col3-menu.show~.col3-delete {
+            display: block;
+        }
+    
+        .header_2 .col3 .col3-menu.show .header_2 .col2 {
+            display: block;
+        }
+    
+        .header_2 .col3 .col3-delete {
+            display: none;
+            width: 34px;
+            height: 34px;
+            line-height: 34px;
+            border-radius: 0;
+            background: var(--primary-color);
+        }
+    
+        .contact::before{
+            top: -460px;
+        }
+    
+        .dropdown-menu {
+            top: 59px;
+            z-index: 999;
+        }
+
+        .get .container,
+        .we .container {
+            max-width: 720px;
+        }
+        .we header {
+            margin: 0 0 48px 0;
+        }
+        .subscribe .link {
+            max-width: 830px;
+            margin: auto 2em;
+        }
+        .subscribe .container {
+            max-width: 720px;
+        }
+        .subscribe .container .row {
+            flex-wrap: wrap;
+        }
+        .subscribe .container .row .col {
+            width: 45%;
+            margin: 48px auto;
+        }
+        .subscribe .col2,
+        .subscribe .col4 {
+            padding: 0 15px;
+        }
+        .subscribe .container .row .col4 {
+            border-left: none;
+        }
+        .subscribe .container .row .col4 p{
+            margin: 15px 0;
+        }
+        .contact {
+            margin-top: 68px;
+        }
+
+        .sidebar_right {
+            margin-top: 70px !important;
+        }
+    
+        .header_1,
+        .header_2 {
+            transform: translateY(-52px) !important;
+        }
+    }
+    /* điện thoại : ngang */
+    
+    @media screen and (max-width: 768px) {
+        .contact {
+            min-height: 105px !important;
+        }
+    
+        .contact .container {
+            margin: auto 110px;
+        }
+
+        .contact::before{
+            top: -655px;
+        }
+
+        .get .container,
+        .we .container {
+            max-width: 540px;
+            padding: 0;
+        }
+        .get .container .row,
+        .we .row {
+            flex-direction: column;
+        }
+        .get .container .row .col {
+            width: 90%;
+        }
+        .we .row .col {
+            width: 100%;
+            padding: 0;
+        }
+        .we .row .col2 {
+            margin-top: 24px;
+        }
+        .subscribe .container {
+            max-width: 540px;
+        }
+        .subscribe .link .row {
+            flex-direction: column;
+        }
+        .subscribe .link .row .col {
+            width: 100%;
+        }
+        .subscribe .link .row .col:last-of-type {
+            margin-top: 24px;
+        }
+        .subscribe .link .row .col .item form input {
+            width: 65%;
+        }
+        .subscribe .link .row .col .item form button {
+            padding: 16px 55px;
+        }
+        .subscribe .container .row .col {
+            width: 44%;
+            margin: 30px auto;
+        }
+    }
+    /* điện thoại : dọc */
+    
+    @media screen and (max-width: 576px) {
+        .get .container .row .col1 .item h3{
+            margin-bottom: 24px;
+        }
+        .get .container .row .col1 .item .row1 .colm1{
+            width: 7%;
+        }
+        .get .container .row .col1 .item .row1 .colm2 h6{
+            font-size: 17px;
+        }
+        .get .container .row .col2{
+            margin-top: 1.5rem;
+        }
+        .we{
+            padding: 0 0 48px 0;
+        }
+
+        .contact::before{
+            top: -655px;
+        }
+        .contact .container{
+            margin: 35px 15px 0 15px;
+        }
+    
+        .video-play {
+            width: 430px;
+            height: 260px;
+        }
+    
+        .subscribe {
+            padding: 80px 0 40px 0;
+        }
+
+        .subscribe .link{
+            margin: auto 1em;
+        }
+    
+        .subscribe .link .row .col {
+            padding: 0;
+        }
+    
+        .subscribe .link .row .col .item form button {
+            padding: 16px 35px;
+        }
+
+        .subscribe .container{
+            padding: 0;
+            margin: 120px 0 0 0;
+        }
+    
+        .subscribe .container .row {
+            flex-direction: column;
+        }
+    
+        .subscribe .container .row .col {
+            width: 97%;
+        }
+        iframe{
+            width: 520px;
+        }
+    }

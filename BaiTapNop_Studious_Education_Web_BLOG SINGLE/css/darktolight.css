@@ -1,0 +1,98 @@
+.body_change{
+    background-color: #161c2b;
+}
+
+/* header_2_change CSS */
+
+.header_2_change .col1 a{
+    color: #ffffff !important;
+}
+
+.header_2_change{
+    transition: 0.5s;
+    background-color: #161c2d;
+}
+
+.header_2_change .col2 form input{
+    transition: 0.5s;
+    /* color: white !important; */
+    background: #161c2d !important; 
+    color: #ffffff;
+}
+
+.header_2_change .col2-link{
+    color: white !important;
+}
+
+.header_2_change .col1 a:hover{
+    color: #ff6e65 !important;
+}
+
+/* Review_change CSS */
+
+.review_change{
+    background-color: #161c2d;
+}
+
+.review_change .container .row .col2 .item form input, .review_change .container .row .col1 .item .add .input .col .item form input, .review_change .container .row .col1 .item .add form textarea {
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    background-color: #161c2d;
+}
+
+.review_change .container .row .col2 .item .categories, .review_change .container .row .col2 .item .archives, .review_change .container .row .col2 .item .tags, .review_change .container .row .col2 .item .popular, .review_change .container .row .col2 .item .tags a, .review_change .container .row .col1 .item .comments .container1, .review_change .container .row .col1 .item .comments .container2{
+    border: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+.review_change .container .row .col2 .item h6,.review_change .container .row .col2 .item .tags a,.review_change .container .row .col1 .item .sedut h3, .review_change .container .row .col1 .item .icon a, .review_change .container .row .col1 .item .previous a, .review_change .container .row .col1 .item .comments h3, .review_change .container .row .col1 .item .comments .container1 .row .colm2 .item2 .row .a .item a, .review_change .container .row .col1 .item .comments .container1 .row .colm2 .item2 .alexander .row .o2 .item2 .row .name .item a, .review_change .container .row .col1 .item .comments .container2 .row .q2 .item .row .name .item a, .review_change .container .row .col1 .item .add h3{
+    color: #fdfffc !important;
+}
+
+.review_change .container .row .col2 .item .categories a, .review_change .container .row .col2 .item .archives a,.review_change .container .row .col2 .item .popular .row .p2 .item span, .review_change .container .row .col1 .item p, .review_change .container .row .col1 .item .comments .container1 .row .colm2 .item2 .row .b .item span, .review_change .container .row .col1 .item .comments .container1 .row .colm2 .item2 .alexander .row .o2 .item2 .row .birthday .item span, .review_change .container .row .col1 .item .comments .container2 .row .q2 .item .row .birthday .item span{
+    color: #b7b7b7 !important;
+}
+
+.review_change .container .row .col1 .item .previous{
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+    border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+.review_change .container .row .col1 .item .comments .container1 .row .colm2 .item2 .alexander{
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+.review_change .container .row .col1 .item .comments .container1 .row .colm2 .item2 a, .review_change .container .row .col1 .item .comments .container2 .row .q2 .item a{
+    color: #4867b0 !important;
+}
+
+.review_change .container .row .col1 .item .add button:hover{
+background-color: #4867b0 !important;
+}
+
+/* Subscribe_change CSS */
+
+.subscribe_change .link{
+    background-color: #161c2d ;
+}
+
+.subscribe_change .link .row .col h4{
+    color: #fdfffc;
+}
+
+.subscribe_change .link .row .col p{
+    color: #b7b7b7;
+}
+
+.subscribe_change .link .row .col .item form input{
+    background: #161c2d ;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #ffffff;
+}
+
+.subscribe_change .link .row .col .item form input:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(46, 202, 139, 0.25) !important;
+}
+
+.subscribe_change .link .row .col .item form button{
+    background-color: #4867b0 ;
+}

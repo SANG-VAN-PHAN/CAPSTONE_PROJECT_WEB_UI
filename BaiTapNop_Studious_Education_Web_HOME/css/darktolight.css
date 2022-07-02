@@ -1,0 +1,206 @@
+.hide {
+    display: none !important;
+}
+
+.body_change {
+    background-color: #161c2b;
+}
+
+.header_2_change .col1 a {
+    color: #ffffff !important;
+}
+
+.header_2_change {
+    transition: 0.5s;
+    background-color: #161c2d;
+}
+
+.header_2_change .col2 form input {
+    transition: 0.5s;
+    background: #161c2d !important;
+    color: #ffffff;
+}
+
+.header_2_change .col2-link {
+    color: white !important;
+}
+
+.header_2_change .col1 a:hover {
+    color: #ff6e65 !important;
+}
+
+/* studious */
+
+.studious_change header h3,
+.studious_change .item h3 {
+    color: #fdfffc;
+}
+
+.studious_change header h3::before,
+.studious_change header h3::after {
+    background: #b7b7b7;
+}
+
+.studious_change .item p {
+    color: #b7b7b7;
+}
+
+.studious_change .row .col .item i {
+    color: #4867b0;
+    background-color: rgba(168, 176, 195, 0.11);
+}
+
+/* started */
+
+.started_change,
+.started_change .content {
+    background: #121725;
+}
+
+.started_change header h3,
+.started_change .content .one p,
+.started_change .tieude {
+    color: #fdfffc;
+}
+
+.started_change header h3::before,
+.started_change header h3::after {
+    background: #b7b7b7;
+}
+
+.started_change .aliqua {
+    color: #b7b7b7;
+}
+
+.started .content .start {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.started_change .content {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* flexible */
+
+.flexible_change .row .col-2 .colm .item {
+    background-color: #161c2d;
+}
+
+.flexible_change h5 {
+    color: #fdfffc;
+}
+
+.flexible_change p {
+    color: #b7b7b7;
+}
+
+.flexible_change .row .col-2 .colm .icon i {
+    color: #4867b0;
+    background-color: rgba(13, 54, 159, 0.09);
+}
+
+/* data */
+
+.data_change header h3,
+.data_change .container .col .item {
+    color: #fdfffc;
+}
+
+.data_change header h3::before,
+.data_change header h3::after {
+    background: #b7b7b7;
+}
+
+.data_change header p {
+    color: #b7b7b7;
+}
+
+.data_change .container .col .item {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* student */
+
+.student_change header h3,
+.student_change .container .row .col .item .img .img2 h5 {
+    color: #fdfffc;
+}
+
+.student_change header h3::before,
+.student_change header h3::after {
+    background: #b7b7b7;
+}
+
+.student_change .container .row .col .item {
+    background-color: #161c2d;
+    box-shadow: 0 20px 62px rgba(29, 37, 58, 1);
+}
+
+.student_change .container .row .col .item .p,
+.student_change .container .row .col .item .img .img2 p {
+    color: #b7b7b7;
+}
+
+/* world */
+
+.world_change header h3,
+.world_change .container .row .col .item .content a {
+    color: #fdfffc;
+}
+
+.world_change header h3::before,
+.world_change header h3::after {
+    background: #b7b7b7;
+}
+
+.world_change .container .row .col .item {
+    background-color: #161c2b;
+    box-shadow: 0 20px 62px rgba(29, 37, 58, 1);
+}
+
+.world_change .container .row .col .item .content p {
+    color: #b7b7b7;
+}
+
+/* not */
+
+.not_change .container .row .col2 .item h3 {
+    color: #fdfffc;
+}
+
+.not_change .container .row .col2 .item p {
+    color: #b7b7b7;
+}
+
+.not_change .container .row .col2 .item a:hover {
+    background-color: #4867b0;
+}
+
+/* subscribe */
+
+.subscribe_change .link {
+    background-color: #161c2d;
+}
+
+.subscribe_change .link .row .col h4 {
+    color: #fdfffc;
+}
+
+.subscribe_change .link .row .col p {
+    color: #b7b7b7;
+}
+
+.subscribe_change .link .row .col .item form input {
+    background: #161c2d;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.subscribe_change .link .row .col .item form input:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(46, 202, 139, 0.25) !important;
+}
+
+.subscribe_change .link .row .col .item form button {
+    background-color: #4867b0;
+}
